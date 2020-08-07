@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="141180bb-bd87-45ab-8c68-a65cec9a359e" name="Default Changelist" comment="8/6/20 update" />
+    <list default="true" id="141180bb-bd87-45ab-8c68-a65cec9a359e" name="Default Changelist" comment="8/6/20 update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +53,27 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager">
+    <configuration name="Matrices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Robotic_Kinematics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\burro\PycharmProjects\Robotic_Kinematics\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Robotic Kinematics" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Robotic Kinematics/Matrices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Robotic Kinematics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +138,11 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Matrices" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -134,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596776638533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="8/6/20 update">
+      <created>1596776798870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596776798870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="8/6/20 update">
+      <created>1596776850599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596776850599</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,9 +196,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="8/6/20 update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="351" y="0" key="#Matrices" timestamp="1596777040996">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="351" y="0" key="#Matrices/0.0.1280.680@0.0.1280.680" timestamp="1596777040996" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596776991915">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1596776991915" />
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1596776759534">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596776759534" />
+    <state x="451" y="221" key="Github.ShareDialog" timestamp="1596776910309">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="451" y="221" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1596776910309" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1596064524538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596064524538" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596776685925">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1596776685925" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596776805894">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1596776805894" />
+    <state x="334" y="129" key="git4idea.merge.GitPullDialog" timestamp="1596776861452">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="334" y="129" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1596776861452" />
   </component>
 </project>
