@@ -151,5 +151,20 @@ def minverse(matrixin):
 
     return invmatrix
 
-matrixin = [[2,6,1],[2,4,1],[2,2,1]]
-print(minverse(matrixin))
+
+def mtranspose(matrixin):
+
+    r = len(matrixin[0])
+    c = len(matrixin)
+    tmatrix = [c * [0] for _ in range(r)]
+
+    for i in range(r):
+        for j in range(c):
+            tmatrix[i][j] = matrixin[j][i]
+
+    return tmatrix
+
+
+
+matrixin = [[2,6],[2,4],[2,2],[1,5]]
+print(mtranspose(matrixin))
