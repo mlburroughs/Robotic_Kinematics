@@ -1,5 +1,14 @@
 """
-Functions for computer matrices
+Matrices.py includes a library of function for use in matrix manipulation
+
+Functions for computer matrices:
+Matrix Addition: maddition(input1, input2)
+Matrix Subtraction: msubtraction(input1, input2)
+Matrix Multiplication: mmulti(input1, input2)
+Matrix Scalar Multiplication: smmulti(input1, scalar)
+Matrix Inversion: minverse(input1)
+Matrix Transposition: mtranspose(input1)
+Matrix Error Evaluation: matrixeval(input1, input2)
 
 Author: Michelle Burroughs
 
@@ -36,7 +45,7 @@ def maddition(matrix1, matrix2):
     return matrix
 
 
-# Matrix subtraction
+# Matrix Subtraction
 def msubtraction(matrix1, matrix2):
 
     #columns
@@ -81,8 +90,20 @@ def mmulti(matrix1, matrix2):
 
     return matrix
 
+#Scalar Matrix Multiplication
+def smmulti(matrixin, scalar):
 
-# matrix inverse
+    r = len(matrixin[0])
+    c = len(matrixin)
+    matrixout = [r * [0] for _ in range(c)]
+
+    for i in range(r):
+        for j in range(c):
+            matrixout[i][j] = matrixin[i][j] * scalar
+
+    return matrixout
+
+# Matrix Inversion
 def minverse(matrixin):
 
     col = len(matrixin)
@@ -152,6 +173,7 @@ def minverse(matrixin):
     return invmatrix
 
 
+#Matrix Transposition Operation
 def mtranspose(matrixin):
 
     r = len(matrixin[0])
@@ -165,6 +187,23 @@ def mtranspose(matrixin):
     return tmatrix
 
 
+# Matrix Evaluation for Errors
+def matrixeval(matrix1, matrix2):
+
+    err1 = "Matrices are not compatible for addition or subtraction"
+    err2 = "Matrices are not compatible for multiplication"
+
+    if len(matrix1) != len(matrix2):
+        print(err1)
+    elif len(matrix1[0]) != len(matrix2[0]):
+        print(err1)
+
+    if len(matrix1[0]) != len(matrix2):
+        print(err2)
+    elif len(matrix2[0]) != len(matrix1):
+        print(err2)
+
+    return
 
 matrixin = [[2,6],[2,4],[2,2],[1,5]]
 print(mtranspose(matrixin))
