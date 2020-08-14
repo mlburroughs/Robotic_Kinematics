@@ -7,7 +7,6 @@ Author: Michelle Burroughs
 """
 
 
-
 # 2D End Effector Position Generator
 def fkposition2d(theta, l):
     import math
@@ -85,6 +84,12 @@ def tmatrix3d(theta, alpha, r, d):
 
 The following functions describe 3D Forward Kinematic Matrix transformation
 
+Denavit-Hartenberg parameters in T_(i-1,i) describes:
+Link Length_(i-1) = a - length of mutually perpendicular scalar a_(i-1)
+Link Twist_(i-1) = alpha - angle between z_(i-1) and z_(i) around x_(i-1)
+Link Offset_(i) = d - distance from intersection of x_(i-1) and z_(i), i frame along z_(i)
+Joint Angle_(i) = psi - angle between x_(i-1) and x_(i) around z_(i)
+
 '''
 
 # Rotation Matrix Around [X] Generator
@@ -151,7 +156,7 @@ def transmatrix3d(alpha, psi, a, d):
     return tmatrix
 
 
-# Forward Kinematics Transformation From Base to End-Effector
+# Forward Kinematics Transformation From Base to End-Effector in 3D
 def fktmatrix(alpha, psi, a, d):
     import Matrices
 
@@ -165,7 +170,6 @@ def fktmatrix(alpha, psi, a, d):
 
     for j in range(size-1):
         tmatrix_combined[j] = Matrices.mmulti(tmatrix_combined[j], tmatrix[j+1])
-
 
     return tmatrix_combined[size-1]
 
