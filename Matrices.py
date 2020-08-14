@@ -205,3 +205,59 @@ def matrixeval(matrix1, matrix2):
 
     return
 
+
+# Rotational Operators
+
+def rotationx(theta):
+    import math
+
+    theta = math.radians(theta)
+    r22 = math.cos(theta)
+    r23 = -(math.sin(theta))
+    r32 = math.sin(theta)
+    r33 = math.cos(theta)
+
+    R_x = [[1, 0, 0], [0, r22, r23], [0, r32, r33]]
+
+    return R_x
+
+
+def rotationy(theta):
+    import math
+    theta = math.radians(theta)
+
+    r11 = math.cos(theta)
+    r13 = math.sin(theta)
+    r31 = -(math.sin(theta))
+    r33 = math.cos(theta)
+
+    R_y = [[r11, 0, r13], [0, 1, 0], [r31, 0, r33]]
+
+    return R_y
+
+
+def rotationz(theta):
+    import math
+    theta = math.radians(theta)
+
+    r11 = math.cos(theta)
+    r12 = -(math.sin(theta))
+    r21 = math.sin(theta)
+    r22 = math.cos(theta)
+
+    r_z = [[r11, r12, 0], [r21, r22, 0], [0, 0, 1]]
+
+    return r_z
+
+
+def rotation(theta):
+    import math
+    theta = math.radians(theta)
+
+    r_x = rotationx(theta)
+    r_y = rotationy(theta)
+    r_z = rotationz(theta)
+
+    r = mmulti(mmulti(z, r_y), r_x)
+
+    return r

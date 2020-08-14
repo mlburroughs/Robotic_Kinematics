@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="141180bb-bd87-45ab-8c68-a65cec9a359e" name="Default Changelist" comment="8/12/20 update">
+    <list default="true" id="141180bb-bd87-45ab-8c68-a65cec9a359e" name="Default Changelist" comment="8/13/20 update">
+      <change afterPath="$PROJECT_DIR$/MatrixEval.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ForwardKinematics.py" beforeDir="false" afterPath="$PROJECT_DIR$/ForwardKinematics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597363504509</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="8/13/20 update">
+      <created>1597364913990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597364913990</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +267,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="8/6/20 update" />
     <MESSAGE value="8/12/20 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/12/20 update" />
+    <MESSAGE value="8/13/20 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/13/20 update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="0" key="#Matrices" timestamp="1596777040996">
@@ -297,10 +307,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596064524538" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1597363528104">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1597364922677">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597363528104" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597364922677" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596777072663">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

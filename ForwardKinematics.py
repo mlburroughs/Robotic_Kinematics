@@ -1,10 +1,26 @@
 """
 
-Forward Kinematics
+Forward Kinematics Functions
+
+This script provides functions for forward kinematics in 2D and 3D.
+Must import Matricies.py and Math library
+
+fkposition2d.py - Calculates the x,y, and orientation end effector position
+tmatrix2d.py - Calculates the transformation matrix between two 2D positions
+tmatrix3d.py - Calculates the transformation matrix between two 3D positions
+
+The following functions solve for the transformation matrix between T_0 and T_final
+rotxmatrix3d.py
+rotzmatrix3d.py
+transxmatrix3d.py
+transzmatrix3d.py
+fktmatrix.py
+
 
 Author: Michelle Burroughs
 
 """
+
 
 
 # 2D End Effector Position Generator
