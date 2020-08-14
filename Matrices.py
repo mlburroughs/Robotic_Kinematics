@@ -258,6 +258,6 @@ def rotation(theta):
     r_y = rotationy(theta)
     r_z = rotationz(theta)
 
-    r = mmulti(mmulti(z, r_y), r_x)
+    r = mmulti(mmulti(r_z, r_y), r_x)
 
     return r
