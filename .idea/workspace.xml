@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="141180bb-bd87-45ab-8c68-a65cec9a359e" name="Default Changelist" comment="8/12/20 update">
-      <change afterPath="$PROJECT_DIR$/ForwardKinematics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForwardKinematics.py" beforeDir="false" afterPath="$PROJECT_DIR$/ForwardKinematics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Matrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matrices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,28 @@
       <recent name="C:\Users\burro\PycharmProjects\Robotic_Kinematics" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ForwardKinematics">
+    <configuration name="ForwardKinematics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Robotic_Kinematics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ForwardKinematics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Matrices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Robotic_Kinematics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ForwardKinematics" />
         <item itemvalue="Python.Matrices" />
       </list>
     </recent_temporary>
@@ -204,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597283250174</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8/12/20 update">
+      <created>1597287987101</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597287987101</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,37 +271,37 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="451" y="221" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1596776910309" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1597283228603">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1597363493652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597283228603" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1597283228603">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597363493652" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1597363493651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597283228603" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1597283228603">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597363493651" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1597363493650">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597283228603" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1597283228603">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597363493650" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1597363493652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597283228603" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597363493652" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1596064524538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596064524538" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1597283266666">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1597288011607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597283266666" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597288011607" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596777072663">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1596777072663" />
-    <state x="334" y="129" key="git4idea.merge.GitPullDialog" timestamp="1596776861452">
+    <state x="334" y="129" key="git4idea.merge.GitPullDialog" timestamp="1597288001219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="334" y="129" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1596776861452" />
+    <state x="334" y="129" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1597288001219" />
   </component>
 </project>

@@ -205,5 +205,3 @@ def matrixeval(matrix1, matrix2):
 
     return
 
-matrixin = [[2,6],[2,4],[2,2],[1,5]]
-print(mtranspose(matrixin))
